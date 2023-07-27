@@ -1,0 +1,331 @@
+#md{
+    width: 90%;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+#mt {
+    width: 100%;
+    height: 100%;
+
+}
+
+#reuter {
+    background-color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+}
+
+#sign {
+    color: #fff;
+}
+
+span#t {
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+span#o {
+    text-transform: uppercase;
+    font-size: x-small;
+    color: rgb(168, 164, 164);
+
+}
+
+#us {
+    width: 100px;
+}
+
+#t {
+    color: #fff;
+}
+
+.main {
+    /* border: 0px 2px 0px 0px;
+    border-color: gray;
+    border-style: solid; */
+    background-color: rgb(61, 58, 58);
+    color: white;
+    padding-top: 10px;
+    display: flexbox;
+    margin: 0;
+    /* width: 20%; */
+}
+.main:hover{
+    text-decoration: solid;
+    cursor: pointer;
+    color: red;
+}
+.main {
+    width: 350px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#block {
+    width: 400px;
+    display: inline-flex;
+    text-align: center;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+
+}
+
+#fb {
+    /* background-color: gray; */
+    display: inline-block;
+
+}
+
+hr {
+    height: 300px;
+    width: 100%;
+}
+
+button {
+    width: 200px;
+    background-color: gray;
+}
+
+#register {
+    font-size: x-small;
+    color: rgb(165, 161, 161);
+
+}
+
+#h1 {
+    border-bottom: 4px solid rgb(176, 172, 172);
+    margin-left: 10px;
+}
+#sky{
+    background-color: rgb(226, 245, 255);
+}
+
+
+
+
+
+
+
+
+#secondt {
+    width: 100%;
+    margin-left: 15px;
+}
+
+#secondt td {
+    background-color: white;
+    font-weight: 600;
+    padding: 0px;
+
+}
+
+a {
+    color: rgb(64, 168, 209);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topic {
+    color: gray;
+
+}
+
+#secondd {
+    margin: 0px 0px 0px 10px;
+    width: 65%;
+    background-color: white;
+    /* border: 2px solid rgb(139, 125, 125); */
+    overflow: hidden;
+}
+
+#more {
+    color: rgb(64, 168, 209);
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+#t2 {
+    background-color: #fff;
+    width: 100%;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+#t2tr {
+
+    background-color: #fff;
+
+}
+section{
+
+    font-size: larger;
+}
+#select2 {
+    color: red;
+    border: none;
+font-size: larger;
+
+}
+
+#a2 {
+    color: red;
+    font-weight: 600;
+font-size: larger;
+
+}
+
+.td3 {
+    padding: 15px;
+    border-left: 3px solid rgb(199, 194, 194);
+    text-align: center;
+    font-weight: 600;
+}
+
+#a1 {
+    border: none
+}
+
+
+
+
+
+span {
+    color: rgb(41, 148, 190);
+}
+
+.p1 {
+    border-bottom: 2px solid rgb(74, 69, 69);
+}
+
+h6 {
+    font-weight: 800;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+#t3 {
+    width: 100%;
+}
+
+#left {
+    text-align: left;
+}
+
+
+
+
+
+#secondd,
+#thirdd {
+    display: inline-block;
+}
+
+#thirdd {
+    width: 33%;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+
+.db2 {
+    width: 75px;
+    height: 32px;
+    background-color: rgb(34, 93, 116);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.db2:hover {
+    color: rgb(62, 131, 158);
+    background-color: #fff;
+    font-weight: 800;
+cursor: pointer;
+}
+
+#nesd {
+    padding: 10px 0px 0px 4px;
+    color: #fff;
+    background-color: rgb(62, 131, 158);
+
+}
+
+#spon {
+
+    color: gray;
+    font-size: 10px;
+    padding: 10px;
+
+}
+
+#b2 {
+    width: 35%;
+    height: 10%;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.search{
+    height: 50px;
+    margin: 3%;
+}
+
+#market2 {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(162, 212, 242);
+    padding: 10px 0px 0px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sky{
+    background-color: rgb(230, 249, 255);
+}
+.tls {
+    font-size: x-small;
+    color: red;
+    border: none;
+}
+
+#tl {
+    width: 100%;
+    /* padding: 3px 5px 3px 5px; */
+
+}
+
+.tla {
+    font-size: large;
+    font-weight: 800;
+    text-align: right;
+}
+
+#currency {
+    padding: 9px;
+    background-color: rgb(162, 212, 242);
+    font-weight: 800;
+}
+
+.tlf {
+    color: green;
+    border: none;
+}
+td{
+
+    padding-top: 30px;
+}
