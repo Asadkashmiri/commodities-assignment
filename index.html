@@ -15,15 +15,15 @@
         <table id="mt">
             <tr>
                 <th id="reuter">
-                    REUTERS
+                   <img id="cycle" src="./cycle.png" alt=""> REUTERS
                 </th>
-                <td id="us" class="main"><span id="o">edition <br></span><span id="t"> u.s.</span></td>
-                <td class="main">News <br> & Markets</td>
-                <td class="main">Sectors <br> & Industries</td>
-                <td class="main">Analysis <br>& Opinion</td>
+                <td id="us" class="main"><span id="o">edition <br></span><span id="t"> u.s.</span><br><div id="usd"><select id="us-select"><option value="us"></option></select></div></td>
+                <td class="main">News <br> & Markets <select class="class" name="" id=""></select></td>
+                <td class="main">Sectors <br> & Industries <select class="class" name="" id=""></select></td>
+                <td class="main">Analysis <br>& Opinion <select class="class" name="" id=""></select></td>
 
-                <td class="main" id="block"><span id="register">Register</span>
-                    <div id="fb"> <button id="sign">Sign in <img
+                <td class="main" id="block">
+                    <div id="fb"> <span id="register">Register</span><button id="sign">Sign in <img
                                 src="data:image/png;base64,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"
                                 alt=""><img
                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdpAyAcrA86Zz35k2gxCUShODEEWK8Mb1rNWX7U9SLdXPxM4b72aZc-QhNO68xAfptE6s&usqp=CAU"
@@ -32,13 +32,16 @@
                                 alt=""><img
                                 src="https://w7.pngwing.com/pngs/887/616/png-transparent-linkedin-icon-linkedin-text-rectangle-logo.png"
                                 alt=""> </button> <br>
-                        <input size="49px" placeholder="Search News & Quotes" type="search">
+                       <div class="sb">
+
+                           <input class="osb" size="35px" placeholder="Search News & Quotes" type="search"><button class="sbb">SEARCH</button>
+                        </div> 
                     </div>
                 </td>
             </tr>
         </table>
     </center>
-    <br><br><br>
+    <br>
     <h1 id="h1">
         Commodities
     </h1>

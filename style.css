@@ -1,8 +1,9 @@
-#md{
+#md {
     width: 90%;
     margin: auto;
     /* border: 2px solid red; */
 }
+
 #mt {
     width: 100%;
     height: 100%;
@@ -12,35 +13,62 @@
 #reuter {
     background-color: red;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
+    color: rgb(252, 252, 252);
     width: 400px;
     margin: 0;
     padding: 0;
-    font-size: xx-large;
+    font-size: 180%;
 }
 
-#sign {
-    color: #fff;
+#cycle {
+    width: 15%;
+    height: 40px;
+
 }
+
 
 span#t {
     text-transform: uppercase;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
 }
 
 span#o {
     text-transform: uppercase;
-    font-size: x-small;
+    font-size: small;
     color: rgb(168, 164, 164);
+    /* margin: 20%; */
+}
 
+#usd {
+    /* margin: 10% 20% 20% 20%; */
+    width: 60%;
+    height: 15px;
+    background-color: rgb(97, 99, 105);
+    /* border: 1px solid white; */
+    text-align: right;
+    position: relative;
 }
 
 #us {
-    width: 100px;
+    width: 10%;
+
+}
+
+#us-select {
+    color: #faf7f7;
+    background-color: transparent;
+    border: none;
+    /* position: relative; */
+}
+
+input {
+    height: 30px;
 }
 
 #t {
     color: #fff;
+    /* margin: 20%; */
 }
 
 .main {
@@ -51,38 +79,78 @@ span#o {
     color: white;
     padding-top: 10px;
     display: flexbox;
-    margin: 0;
-    /* width: 20%; */
+    padding: 0% 0% 0% 1%;
+
+
 }
-.main:hover{
+
+.main:hover {
     text-decoration: solid;
     cursor: pointer;
     color: red;
 }
+
 .main {
     width: 350px;
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#register {
+    font-size: x-small;
+    color: rgb(165, 161, 161);
+}
+
 #block {
     width: 400px;
     display: inline-flex;
-    text-align: center;
+    text-align: right;
+    height: 89px;
 }
 
+.class {
+    background-color: transparent;
+    color: red;
+    border: none;
+}
+
+#sign {
+    color: #fff;
+}
 img {
     height: 20px;
     width: 20px;
-
+    
 }
 
 #fb {
-    /* background-color: gray; */
+    background-color: transparent;
     display: inline-block;
+    text-align: right;
+    width: 100%;
+    
+}
+.sb{
+    background-color: #fff;
+   width: 90%;
+   height: 45%;
+display: flex;
+    padding: 5px 5px  0px;
+}
+.osb{
+    border: none;
+}
+.sbb{
+    background-color: red;
+    color: #fff;
+    height: 95%;
+    border: none;
+}
+.sbb:hover , #b2:hover{
+    cursor: pointer;
+    background-color: darkred;
 
 }
-
 hr {
     height: 300px;
     width: 100%;
@@ -93,17 +161,13 @@ button {
     background-color: gray;
 }
 
-#register {
-    font-size: x-small;
-    color: rgb(165, 161, 161);
-
-}
 
 #h1 {
     border-bottom: 4px solid rgb(176, 172, 172);
     margin-left: 10px;
 }
-#sky{
+
+#sky {
     background-color: rgb(226, 245, 255);
 }
 
@@ -166,21 +230,23 @@ a {
     background-color: #fff;
 
 }
-section{
+
+section {
 
     font-size: larger;
 }
+
 #select2 {
     color: red;
     border: none;
-font-size: larger;
+    font-size: larger;
 
 }
 
 #a2 {
     color: red;
     font-weight: 600;
-font-size: larger;
+    font-size: larger;
 
 }
 
@@ -253,7 +319,7 @@ h6 {
     color: rgb(62, 131, 158);
     background-color: #fff;
     font-weight: 800;
-cursor: pointer;
+    cursor: pointer;
 }
 
 #nesd {
@@ -273,7 +339,6 @@ cursor: pointer;
 
 #b2 {
     width: 35%;
-    height: 10%;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     background-color: red;
@@ -281,7 +346,8 @@ cursor: pointer;
     border: none;
     border-radius: 5px;
 }
-.search{
+
+.search {
     height: 50px;
     margin: 3%;
 }
@@ -294,9 +360,10 @@ cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.sky{
+.sky {
     background-color: rgb(230, 249, 255);
 }
+
 .tls {
     font-size: x-small;
     color: red;
@@ -325,7 +392,8 @@ cursor: pointer;
     color: green;
     border: none;
 }
-td{
+
+td {
 
     padding-top: 30px;
 }
